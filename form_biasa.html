@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Formulir Pembelian - ZLANEE STORE</title>
+  <title>Formulir Pembelian - Frzz store</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -48,8 +48,8 @@
     });
 
     async function sendToTelegram(formData, file, currentProduct) {
-      const BOT_TOKEN = '7873471810:AAEOADfadG2l18gTNsGSHuMzIo0bKv6HbGg'; // Replace with your bot token
-      const CHAT_ID = '7681505131'; // Replace with your chat ID
+      const BOT_TOKEN = '8367091475:AAH93RaFTfukUu_1bwigKNFYkhRYalYWgx4'; // Replace with your bot token
+      const CHAT_ID = '6822416332'; // Replace with your chat ID
 
       // Prepare the message
       const textMessage = `Pesanan: \nProduk: ${currentProduct}\nNama: ${formData.get('nama')}\nWA: ${formData.get('wa')}\nCatatan: ${formData.get('catatan') || '-'}`;
